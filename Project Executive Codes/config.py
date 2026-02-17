@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-genai.configure(api_key=os.getenv("AIzaSyBX87F-d2IvucPMixEjtQzHu7wggW12QXw"))
+genai.configure(api_key=os.getenv(""))
 
 generation_config = {
     "temperature": 0.7,
