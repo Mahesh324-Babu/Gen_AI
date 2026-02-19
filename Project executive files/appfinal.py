@@ -125,7 +125,7 @@ def initialize_llm():
     try:
         # Try to get API key from secrets first, then fallback to hardcoded
         try:
-            api_key = st.secrets["AIzaSyBX87F-d2IvucPMixEjtQzHu7wggW12QXw"]
+            api_key = st.secrets["ENTER API KEY HERE"]
         except:
             # Fallback to the original API key if secrets not available
             api_key = "enter your API key"
